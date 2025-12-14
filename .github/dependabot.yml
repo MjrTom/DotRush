@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/src" # Location of package manifests
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 500
@@ -17,8 +17,8 @@ updates:
       interval: "monthly"
     open-pull-requests-limit: 500
 
-  - package-ecosystem: "rust" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "cargo" # See documentation for possible values
+    directory: "/src" # Location of package manifests
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 500
